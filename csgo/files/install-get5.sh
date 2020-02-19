@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-URL_METAMOD="https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git968-linux.tar.gz"
-URL_SOURCEMOD="https://sm.alliedmods.net/smdrop/1.9/sourcemod-1.9.0-git6273-linux.tar.gz";
-URL_GET5="https://github.com/splewis/get5/releases/download/0.6.0/get5_0.6.0.zip"
+URL_METAMOD="https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git971-linux.tar.gz"
+URL_SOURCEMOD="https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6460-linux.tar.gz";
+URL_GET5="https://github.com/splewis/get5/releases/download/0.7.1/get5_0.7.1.zip"
 URL_STEAMWORKS="http://users.alliedmods.net/~kyles/builds/SteamWorks/SteamWorks-git131-linux.tar.gz"
 URL_SMJANSSON="https://github.com/thraaawn/SMJansson/raw/master/bin/smjansson.ext.so"
 

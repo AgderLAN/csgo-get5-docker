@@ -18,7 +18,9 @@ RUN groupadd -r csgo; \
   mv -f /tmp/start.sh /app/; \
   chown -R csgo:csgo /app/; \
   su -c "/tmp/update-csgo.sh" -m csgo; \
-  su -c "/tmp/install-get5.sh /app/csgo/" -m csgo;
+  su -c "/tmp/install-get5.sh /app/csgo/" -m csgo; \
+  chown -R csgo:csgo /app/; \
+  chmod -R 755 /app/csgo/addons/;
 
 USER csgo
 ENTRYPOINT [ "/app/start.sh" ]

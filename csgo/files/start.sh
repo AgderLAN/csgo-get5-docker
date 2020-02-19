@@ -8,7 +8,7 @@ CS_TICKRATE=${CS_TICKRATE:-128}
 CS_NAME=${CS_NAME:-"CS:GO Server (${CS_PORT})"}
 
 
-LAUNCH_PARAM="-console -usercon +port ${CS_PORT} +hostname \"${CS_NAME}\" +tv_port ${CS_TV_PORT} -tickrate ${CS_TICKRATE}"
+LAUNCH_PARAM="-console -usercon +tv_advertise_watchable 1 +port ${CS_PORT} +hostname \"${CS_NAME}\" +tv_port ${CS_TV_PORT} -tickrate ${CS_TICKRATE}"
 
 if [ -z ${CS_ACCOUNT+x} ]; then :; else
   LAUNCH_PARAM="${LAUNCH_PARAM} +sv_setsteamaccount ${CS_ACCOUNT} -net_port_try 1 +sv_lan 0"
